@@ -1,0 +1,370 @@
+  @media screen and (max-width: 909px) {
+    .homepage-button {
+      margin: 1rem auto;
+      display: table;
+    }
+  }
+
+  @media screen and (min-width: 910px) {
+    .homepage-button {
+      margin: 1rem;
+      float: left;
+    }
+  }
+
+  .homepage-button {
+    width: 18rem;
+    height: 18rem;
+    text-align: center;
+
+    background-color: white;
+    color: black;
+
+    border: 0.5rem solid black;
+    border-radius: 100%;
+
+    font-size: 2rem;
+  }
+
+  .homepage-button-image {
+    width: 8rem;
+  }
+
+  .homepage-button:focus, .homepage-button:hover {
+    background-color: #f9f9f9;
+  }
+
+  .color-belt {
+    position: absolute;
+
+    width: 100%;
+    height: 3rem;
+    z-index: -1;
+  }
+
+  .color-belt1 {
+    background-color: #ffe0bd;
+
+    top: 9rem;
+  }
+
+  .color-belt2 {
+    background-color: #dbeeff;
+
+    top: 19rem;
+  }
+
+  .color-belt3 {
+    background-color: #f1dbff;
+
+    top: 29rem;
+  }
+
+
+
+  .government-picture {
+    border: 0.3rem solid black;
+    float: left;
+    width: 50%;
+  }
+
+  .government-board {
+    display: inline-block;
+    margin-left: 2rem;
+  }
+
+  .government-board-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 0.7rem;
+  }
+
+  .government-board-content {
+    border: 0.1rem solid #f1f1f1;
+    margin-bottom: 1rem;
+  }
+
+  .government-board-content-more {
+    font-size: 1rem;
+  }
+
+  .government-board-content-more:link, .government-board-content-more:visited, .government-board-content-more:hover, .government-board-content-more:active { color: #999; }
+
+	@media screen and (min-width: 979px) {
+    .government-board {
+      width: 46%;
+    }
+  }
+
+  @media screen and (max-width: 909px) {
+    .government-board {
+      width: 44%;
+    }
+  }
+
+  @media screen and (max-width: 887px) {
+    .government-board {
+      width: 42%;
+    }
+  }
+
+  @media screen and (max-width: 472px) {
+    .government-board {
+      width: 40%;
+    }
+  }
+
+  @media screen and (max-width: 377px) {
+    .government-board {
+      width: 36%;
+    }
+  }
+
+  @media screen and (max-width: 269px) {
+    .government-board {
+      width: 32%;
+    }
+  }
+
+/* 초기 리셋 스타일 */
+/* * {
+    box-sizing: border-box;
+  } */
+  
+  /* html,
+  body {
+    margin: 0;
+    padding: 0;
+  } */
+  
+  /* rem 사용을 위한 루트 글자 크기 설정 */
+  /* html {
+    font-size: 15px;
+  } */
+  
+  /*
+  기본 배치
+  - div class="guide-container" : 사이드바가 표시되는 화면
+  - div class="guide-container collapse" : 사이드바가 숨겨지는 화면
+  */
+  
+  .guide-container {
+    position: relative;
+  }
+  
+  .guide-container>.guide-sidebar {
+    /* background-color: #ffeaa7; */
+  
+    /* guide-sidebar는 화면을 기준으로 배치 */
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    width: 15rem;
+    
+    display: inline;
+  
+    padding: 1rem;
+  
+    z-index: 9999;
+  }
+  
+  .guide-container>.guide-contents {
+    /* background-color: #74b9ff; */
+  
+    /* guide-contents는 메인페이지(.guide-container)를 기준으로 배치 */
+    position: relative;
+  /*   left: 15rem; */
+    right: 0;
+    top: 0;
+  
+    padding: 1rem 1rem 13rem 19.5rem;
+  }
+  
+  /*
+  숨김 상태의 처리
+  - 사이드바는 화면 밖으로 이동시킴
+  - 컨텐츠영역은 사이드바가 사라진 자리를 채움
+  */
+  /* .guide-container.collapse {} */
+  
+  .guide-container.collapse>.guide-sidebar {
+    margin-left:-15rem;
+    color: rgba(0, 0, 0, 0);
+  }
+  
+  .guide-container.collapse> .guide-sidebar> .guide-toggle {
+    margin-left: 15rem;
+  }
+  
+  .guide-container.collapse>.guide-contents {
+    left:0;
+  }
+
+  .guide-container.collapse> .guide-sidebar> .guide-sidebar-container {
+    opacity: 0;
+  }
+  
+  /* 부드럽게 이동하도록 transition 처리 */
+  .guide-container > .guide-sidebar {
+    transition-property: margin-left, color;
+    transition-duration:0.3s;
+    transition-timing-function: linear;
+  }
+  .guide-container > .guide-contents {
+    transition-property: left, padding-left;
+    transition-duration:0.3s;
+    transition-timing-function:linear;
+  }
+  .guide-container > .guide-sidebar > .guide-toggle {
+    transition-property: margin-left;
+    transition-duration:0.3s;
+    transition-timing-function: linear;
+  }
+  .guide-container > .guide-sidebar > .guide-sidebar-container {
+    transition-property: opacity;
+    transition-duration:0.3s;
+    transition-timing-function: linear;
+  }
+  
+  /* 
+  메뉴 버튼 디자인
+  - 화면에 고정하고 모든 화면보다 우선 표시되도록 처리
+  */
+  .guide-container > .guide-sidebar > .guide-toggle {
+    position: absolute;
+    top:1rem;
+    left:1rem;
+    z-index:100000;
+  
+    display:flex;
+    justify-content: center;
+    align-items: center;
+  
+    width:2.5rem;
+    height:2.5rem;
+  
+    border:3px solid black;
+  }
+
+  .guide-toggle:focus, .guide-toggle:hover {
+    background-color: f9f9f9;
+  }
+  
+  /* .guide-container.collapse > .guide-sidebar > .guide-toggle{} */
+  
+  /* 
+  메뉴와 화면이 겹치는 현상을 해결하기 위해 스타일 추가 
+  - 사이드바는 상단 여백을 부여
+  - 컨텐츠영역은 좌측 여백을 숨김 상태일 경우 부여(transition 설정)
+  */
+  .guide-container > .guide-sidebar {
+    padding-top: 4.5rem;
+  }
+  .guide-container.collapse > .guide-contents {
+    padding-left: 4.5rem;
+  }
+  
+  /*
+  메뉴를 더 잘 보이도록 변경
+  - span 3개를 배치하여 디자인 부여
+  */
+  .guide-container > .guide-sidebar > .guide-toggle > span {
+    position:absolute;
+    
+    width:80%;
+    height:10%;
+  
+    background-color: black;
+    opacity: 1;
+  }
+  
+  /*
+  div class="guide-container" 일 경우 메뉴 모양을 표시
+  div class="guide-container collapse" 일 경우 x 모양을 표시
+  */
+  /* .guide-container > .guide-sidebar > .guide-toggle > span:nth-child(1){
+    top:50%;
+    left:0%;
+    width:100%;
+    transform:translateY(-50%) rotate(45deg);
+  }
+  .guide-container > .guide-sidebar > .guide-toggle > span:nth-child(2){
+    display:none;
+  }
+  .guide-container > .guide-sidebar > .guide-toggle > span:nth-child(3){
+    top:50%;
+    left:0%;
+    width:100%;
+    transform:translateY(-50%) rotate(-45deg);
+  } */
+  
+  .guide-container > .guide-sidebar > .guide-toggle > span:nth-child(1){
+    top:15%;
+    left:10%;
+    width:80%;
+    transform:none;
+  }
+  .guide-container > .guide-sidebar > .guide-toggle > span:nth-child(2){
+    top:50%;
+    left:10%;
+    transform:translateY(-50%);
+    display:block;
+  }
+  .guide-container > .guide-sidebar > .guide-toggle > span:nth-child(3){
+    top:85%;
+    left:10%;
+    width:80%;
+    transform:translateY(-100%);
+  }
+
+  .guide-sidebar-container {
+    border-bottom: 2px solid black;
+    margin-top: 1rem;
+  }
+
+  .guide-sidebar-contents {
+    background-color: white;
+		color: black;
+		border-top: 2px solid black;
+    border-bottom: 0;
+    border-right: 0;
+    border-left: 0;
+    
+    font-size: 1.5rem;
+
+    width: 100%;
+    height: 4.5rem;
+  }
+
+  .guide-sidebar-contents:focus, .guide-sidebar-contents:hover {
+    background-color: #f9f9f9;
+  }
+
+  .guide-container>.guide-sidebar {
+    /* background-color: #ffeaa7; */
+  
+    /* guide-sidebar는 화면을 기준으로 배치 */
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+		width: 15rem;
+    
+    display: inline;
+  
+    padding: 1rem;
+  
+    z-index: 97;
+  }
+
+/* 	@media screen and (min-width: 921px) {
+		.guide-container > .guide-sidebar {
+			width: 15rem;
+		}
+	}
+	@media screen and (max-width: 920px) {
+		.guide-container > .guide-sidebar {
+			width: 12rem;
+		}
+	} */

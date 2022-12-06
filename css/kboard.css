@@ -1,0 +1,241 @@
+/* page-id-36 909px 아래에서 모바일 게시판 css 적용 */
+@media screen and (max-width: 909px) {
+    .page-id-36 #kboard-default-list .kboard-category.category-mobile { display: block; }
+    .page-id-36 #kboard-default-list .kboard-category.category-pc { display: none; }
+    .page-id-36 #kboard-default-list .kboard-tree-category-search .kboard-search-option-wrap.select { width: 100%; }
+    .page-id-36 #kboard-default-list .kboard-list table { border-top: 1px solid #f1f1f1; }
+    .page-id-36 #kboard-default-list .kboard-list table thead { display: none; }
+    .page-id-36 #kboard-default-list .kboard-list table td.kboard-list-title { padding: 10px 5px; }
+    .page-id-36 #kboard-default-list .kboard-list table td.kboard-list-title .kboard-default-cut-strings { margin-bottom: 10px; white-space: normal; font-size: 15px; line-height: 23px; }
+    .page-id-36 #kboard-default-list .kboard-list table td.kboard-list-uid,
+    .page-id-36 #kboard-default-list .kboard-list table td.kboard-list-user,
+    .page-id-36 #kboard-default-list .kboard-list table td.kboard-list-date,
+    .page-id-36 #kboard-default-list .kboard-list table td.kboard-list-vote,
+    .page-id-36 #kboard-default-list .kboard-list table td.kboard-list-view { display: none; }
+    .page-id-36 #kboard-default-list .kboard-list .kboard-mobile-contents { display: block; }
+    .page-id-36 #kboard-default-list .kboard-pagination .kboard-pagination-pages li { display: none; }
+    .page-id-36 #kboard-default-list .kboard-pagination .kboard-pagination-pages li.first-page,
+    .page-id-36 #kboard-default-list .kboard-pagination .kboard-pagination-pages li.last-page,
+    .page-id-36 #kboard-default-list .kboard-pagination .kboard-pagination-pages li.prev-page,
+    .page-id-36 #kboard-default-list .kboard-pagination .kboard-pagination-pages li.next-page,
+    .page-id-36 #kboard-default-list .kboard-pagination .kboard-pagination-pages li.active { display: inline-block; }
+    .page-id-36 #kboard-default-list .kboard-pagination .kboard-pagination-pages li.prev-page a,
+    .page-id-36 #kboard-default-list .kboard-pagination .kboard-pagination-pages li.next-page a { padding: 0 18px; }
+    .page-id-36 #kboard-default-list .kboard-search select { float: left; margin-right: 1%; width: 29%; min-width: 29%; height: 28px; line-height: 28px; box-sizing: border-box; }
+    .page-id-36 #kboard-default-list .kboard-search input { float: left; margin-right: 1%; width: 49%; min-width: 49%; height: 28px; line-height: 28px; box-sizing: border-box; }
+    .page-id-36 #kboard-default-list .kboard-search button { float: left; width: 20%; min-width: 20%; box-sizing: border-box; }
+
+    .page-id-36 #kboard-default-editor select,
+    .page-id-36 #kboard-default-editor input[type=text],
+    .page-id-36 #kboard-default-editor input[type=email],
+    .page-id-36 #kboard-default-editor input[type=number],
+    .page-id-36 #kboard-default-editor input[type=date],
+    .page-id-36 #kboard-default-editor input[type=password],
+    .page-id-36 #kboard-default-editor input[type=file] { width: 100% !important; box-sizing: border-box; }
+    .page-id-36 #kboard-default-editor .kboard-attr-row { padding: 10px 0; }
+    .page-id-36 #kboard-default-editor .kboard-attr-row .attr-name { padding: 0; width: 100%; font-size: 14px; }
+    .page-id-36 #kboard-default-editor .kboard-attr-row .attr-value { margin: 0; }
+    .page-id-36 #kboard-default-editor .kboard-attr-row .attr-value .kboard-tree-category-wrap select { margin-bottom: 10px; width: 100%; }
+    .page-id-36 #kboard-default-editor.confirm { max-width: none; }
+
+    .page-id-36 #kboard-default-document .kboard-title h1 { padding: 10px 5px; font-size: 18px; }
+    .page-id-36 #kboard-default-document .kboard-content .content-view { padding: 10px 5px; }
+    .page-id-36 #kboard-default-document .kboard-detail .detail-attr { clear: both; padding: 10px 5px; line-height: normal; }
+    .page-id-36 #kboard-default-document .kboard-document-action { padding: 10px 5px 5px 5px; }
+    .page-id-36 #kboard-default-document .kboard-attach { margin: 0 5px; padding: 10px 0 5px 0; }
+    .page-id-36 #kboard-default-document .kboard-document-navi .kboard-prev-document { width: 100%; }
+    .page-id-36 #kboard-default-document .kboard-document-navi .kboard-next-document { margin-top: 10px; float: left; width: 100%; text-align: left; }
+}
+
+@media screen and (max-width: 909px) {
+.page-id-61 #kboard-default-list .kboard-category.category-mobile { display: block; }
+.page-id-61 #kboard-default-list .kboard-category.category-pc { display: none; }
+.page-id-61 #kboard-default-list .kboard-tree-category-search .kboard-search-option-wrap.select { width: 100%; }
+.page-id-61 #kboard-default-list .kboard-list table { border-top: 1px solid #f1f1f1; }
+.page-id-61 #kboard-default-list .kboard-list table thead { display: none; }
+.page-id-61 #kboard-default-list .kboard-list table td.kboard-list-title { padding: 10px 5px; }
+.page-id-61 #kboard-default-list .kboard-list table td.kboard-list-title .kboard-default-cut-strings { margin-bottom: 10px; white-space: normal; font-size: 15px; line-height: 23px; }
+.page-id-61 #kboard-default-list .kboard-list table td.kboard-list-uid,
+.page-id-61 #kboard-default-list .kboard-list table td.kboard-list-user,
+.page-id-61 #kboard-default-list .kboard-list table td.kboard-list-date,
+.page-id-61 #kboard-default-list .kboard-list table td.kboard-list-vote,
+.page-id-61 #kboard-default-list .kboard-list table td.kboard-list-view { display: none; }
+.page-id-61 #kboard-default-list .kboard-list .kboard-mobile-contents { display: block; }
+.page-id-61 #kboard-default-list .kboard-pagination .kboard-pagination-pages li { display: none; }
+.page-id-61 #kboard-default-list .kboard-pagination .kboard-pagination-pages li.first-page,
+.page-id-61 #kboard-default-list .kboard-pagination .kboard-pagination-pages li.last-page,
+.page-id-61 #kboard-default-list .kboard-pagination .kboard-pagination-pages li.prev-page,
+.page-id-61 #kboard-default-list .kboard-pagination .kboard-pagination-pages li.next-page,
+.page-id-61 #kboard-default-list .kboard-pagination .kboard-pagination-pages li.active { display: inline-block; }
+.page-id-61 #kboard-default-list .kboard-pagination .kboard-pagination-pages li.prev-page a,
+.page-id-61 #kboard-default-list .kboard-pagination .kboard-pagination-pages li.next-page a { padding: 0 18px; }
+.page-id-61 #kboard-default-list .kboard-search select { float: left; margin-right: 1%; width: 29%; min-width: 29%; height: 28px; line-height: 28px; box-sizing: border-box; }
+.page-id-61 #kboard-default-list .kboard-search input { float: left; margin-right: 1%; width: 49%; min-width: 49%; height: 28px; line-height: 28px; box-sizing: border-box; }
+.page-id-61 #kboard-default-list .kboard-search button { float: left; width: 20%; min-width: 20%; box-sizing: border-box; }
+
+.page-id-61 #kboard-default-editor select,
+.page-id-61 #kboard-default-editor input[type=text],
+.page-id-61 #kboard-default-editor input[type=email],
+.page-id-61 #kboard-default-editor input[type=number],
+.page-id-61 #kboard-default-editor input[type=date],
+.page-id-61 #kboard-default-editor input[type=password],
+.page-id-61 #kboard-default-editor input[type=file] { width: 100% !important; box-sizing: border-box; }
+.page-id-61 #kboard-default-editor .kboard-attr-row { padding: 10px 0; }
+.page-id-61 #kboard-default-editor .kboard-attr-row .attr-name { padding: 0; width: 100%; font-size: 14px; }
+.page-id-61 #kboard-default-editor .kboard-attr-row .attr-value { margin: 0; }
+.page-id-61 #kboard-default-editor .kboard-attr-row .attr-value .kboard-tree-category-wrap select { margin-bottom: 10px; width: 100%; }
+.page-id-61 #kboard-default-editor.confirm { max-width: none; }
+
+.page-id-61 #kboard-default-document .kboard-title h1 { padding: 10px 5px; font-size: 18px; }
+.page-id-61 #kboard-default-document .kboard-content .content-view { padding: 10px 5px; }
+.page-id-61 #kboard-default-document .kboard-detail .detail-attr { clear: both; padding: 10px 5px; line-height: normal; }
+.page-id-61 #kboard-default-document .kboard-document-action { padding: 10px 5px 5px 5px; }
+.page-id-61 #kboard-default-document .kboard-attach { margin: 0 5px; padding: 10px 0 5px 0; }
+.page-id-61 #kboard-default-document .kboard-document-navi .kboard-prev-document { width: 100%; }
+.page-id-61 #kboard-default-document .kboard-document-navi .kboard-next-document { margin-top: 10px; float: left; width: 100%; text-align: left; }
+}
+
+@media screen and (max-width: 909px) {
+.page-id-63 #kboard-default-list .kboard-category.category-mobile { display: block; }
+.page-id-63 #kboard-default-list .kboard-category.category-pc { display: none; }
+.page-id-63 #kboard-default-list .kboard-tree-category-search .kboard-search-option-wrap.select { width: 100%; }
+.page-id-63 #kboard-default-list .kboard-list table { border-top: 1px solid #f1f1f1; }
+.page-id-63 #kboard-default-list .kboard-list table thead { display: none; }
+.page-id-63 #kboard-default-list .kboard-list table td.kboard-list-title { padding: 10px 5px; }
+.page-id-63 #kboard-default-list .kboard-list table td.kboard-list-title .kboard-default-cut-strings { margin-bottom: 10px; white-space: normal; font-size: 15px; line-height: 23px; }
+.page-id-63 #kboard-default-list .kboard-list table td.kboard-list-uid,
+.page-id-63 #kboard-default-list .kboard-list table td.kboard-list-user,
+.page-id-63 #kboard-default-list .kboard-list table td.kboard-list-date,
+.page-id-63 #kboard-default-list .kboard-list table td.kboard-list-vote,
+.page-id-63 #kboard-default-list .kboard-list table td.kboard-list-view { display: none; }
+.page-id-63 #kboard-default-list .kboard-list .kboard-mobile-contents { display: block; }
+.page-id-63 #kboard-default-list .kboard-pagination .kboard-pagination-pages li { display: none; }
+.page-id-63 #kboard-default-list .kboard-pagination .kboard-pagination-pages li.first-page,
+.page-id-63 #kboard-default-list .kboard-pagination .kboard-pagination-pages li.last-page,
+.page-id-63 #kboard-default-list .kboard-pagination .kboard-pagination-pages li.prev-page,
+.page-id-63 #kboard-default-list .kboard-pagination .kboard-pagination-pages li.next-page,
+.page-id-63 #kboard-default-list .kboard-pagination .kboard-pagination-pages li.active { display: inline-block; }
+.page-id-63 #kboard-default-list .kboard-pagination .kboard-pagination-pages li.prev-page a,
+.page-id-63 #kboard-default-list .kboard-pagination .kboard-pagination-pages li.next-page a { padding: 0 18px; }
+.page-id-63 #kboard-default-list .kboard-search select { float: left; margin-right: 1%; width: 29%; min-width: 29%; height: 28px; line-height: 28px; box-sizing: border-box; }
+.page-id-63 #kboard-default-list .kboard-search input { float: left; margin-right: 1%; width: 49%; min-width: 49%; height: 28px; line-height: 28px; box-sizing: border-box; }
+.page-id-63 #kboard-default-list .kboard-search button { float: left; width: 20%; min-width: 20%; box-sizing: border-box; }
+
+.page-id-63 #kboard-default-editor select,
+.page-id-63 #kboard-default-editor input[type=text],
+.page-id-63 #kboard-default-editor input[type=email],
+.page-id-63 #kboard-default-editor input[type=number],
+.page-id-63 #kboard-default-editor input[type=date],
+.page-id-63 #kboard-default-editor input[type=password],
+.page-id-63 #kboard-default-editor input[type=file] { width: 100% !important; box-sizing: border-box; }
+.page-id-63 #kboard-default-editor .kboard-attr-row { padding: 10px 0; }
+.page-id-63 #kboard-default-editor .kboard-attr-row .attr-name { padding: 0; width: 100%; font-size: 14px; }
+.page-id-63 #kboard-default-editor .kboard-attr-row .attr-value { margin: 0; }
+.page-id-63 #kboard-default-editor .kboard-attr-row .attr-value .kboard-tree-category-wrap select { margin-bottom: 10px; width: 100%; }
+.page-id-63 #kboard-default-editor.confirm { max-width: none; }
+
+.page-id-63 #kboard-default-document .kboard-title h1 { padding: 10px 5px; font-size: 18px; }
+.page-id-63 #kboard-default-document .kboard-content .content-view { padding: 10px 5px; }
+.page-id-63 #kboard-default-document .kboard-detail .detail-attr { clear: both; padding: 10px 5px; line-height: normal; }
+.page-id-63 #kboard-default-document .kboard-document-action { padding: 10px 5px 5px 5px; }
+.page-id-63 #kboard-default-document .kboard-attach { margin: 0 5px; padding: 10px 0 5px 0; }
+.page-id-63 #kboard-default-document .kboard-document-navi .kboard-prev-document { width: 100%; }
+.page-id-63 #kboard-default-document .kboard-document-navi .kboard-next-document { margin-top: 10px; float: left; width: 100%; text-align: left; }
+}
+
+@media screen and (max-width: 909px) {
+.page-id-65 #kboard-default-list .kboard-category.category-mobile { display: block; }
+.page-id-65 #kboard-default-list .kboard-category.category-pc { display: none; }
+.page-id-65 #kboard-default-list .kboard-tree-category-search .kboard-search-option-wrap.select { width: 100%; }
+.page-id-65 #kboard-default-list .kboard-list table { border-top: 1px solid #f1f1f1; }
+.page-id-65 #kboard-default-list .kboard-list table thead { display: none; }
+.page-id-65 #kboard-default-list .kboard-list table td.kboard-list-title { padding: 10px 5px; }
+.page-id-65 #kboard-default-list .kboard-list table td.kboard-list-title .kboard-default-cut-strings { margin-bottom: 10px; white-space: normal; font-size: 15px; line-height: 23px; }
+.page-id-65 #kboard-default-list .kboard-list table td.kboard-list-uid,
+.page-id-65 #kboard-default-list .kboard-list table td.kboard-list-user,
+.page-id-65 #kboard-default-list .kboard-list table td.kboard-list-date,
+.page-id-65 #kboard-default-list .kboard-list table td.kboard-list-vote,
+.page-id-65 #kboard-default-list .kboard-list table td.kboard-list-view { display: none; }
+.page-id-65 #kboard-default-list .kboard-list .kboard-mobile-contents { display: block; }
+.page-id-65 #kboard-default-list .kboard-pagination .kboard-pagination-pages li { display: none; }
+.page-id-65 #kboard-default-list .kboard-pagination .kboard-pagination-pages li.first-page,
+.page-id-65 #kboard-default-list .kboard-pagination .kboard-pagination-pages li.last-page,
+.page-id-65 #kboard-default-list .kboard-pagination .kboard-pagination-pages li.prev-page,
+.page-id-65 #kboard-default-list .kboard-pagination .kboard-pagination-pages li.next-page,
+.page-id-65 #kboard-default-list .kboard-pagination .kboard-pagination-pages li.active { display: inline-block; }
+.page-id-65 #kboard-default-list .kboard-pagination .kboard-pagination-pages li.prev-page a,
+.page-id-65 #kboard-default-list .kboard-pagination .kboard-pagination-pages li.next-page a { padding: 0 18px; }
+.page-id-65 #kboard-default-list .kboard-search select { float: left; margin-right: 1%; width: 29%; min-width: 29%; height: 28px; line-height: 28px; box-sizing: border-box; }
+.page-id-65 #kboard-default-list .kboard-search input { float: left; margin-right: 1%; width: 49%; min-width: 49%; height: 28px; line-height: 28px; box-sizing: border-box; }
+.page-id-65 #kboard-default-list .kboard-search button { float: left; width: 20%; min-width: 20%; box-sizing: border-box; }
+
+.page-id-65 #kboard-default-editor select,
+.page-id-65 #kboard-default-editor input[type=text],
+.page-id-65 #kboard-default-editor input[type=email],
+.page-id-65 #kboard-default-editor input[type=number],
+.page-id-65 #kboard-default-editor input[type=date],
+.page-id-65 #kboard-default-editor input[type=password],
+.page-id-65 #kboard-default-editor input[type=file] { width: 100% !important; box-sizing: border-box; }
+.page-id-65 #kboard-default-editor .kboard-attr-row { padding: 10px 0; }
+.page-id-65 #kboard-default-editor .kboard-attr-row .attr-name { padding: 0; width: 100%; font-size: 14px; }
+.page-id-65 #kboard-default-editor .kboard-attr-row .attr-value { margin: 0; }
+.page-id-65 #kboard-default-editor .kboard-attr-row .attr-value .kboard-tree-category-wrap select { margin-bottom: 10px; width: 100%; }
+.page-id-65 #kboard-default-editor.confirm { max-width: none; }
+
+.page-id-65 #kboard-default-document .kboard-title h1 { padding: 10px 5px; font-size: 18px; }
+.page-id-65 #kboard-default-document .kboard-content .content-view { padding: 10px 5px; }
+.page-id-65 #kboard-default-document .kboard-detail .detail-attr { clear: both; padding: 10px 5px; line-height: normal; }
+.page-id-65 #kboard-default-document .kboard-document-action { padding: 10px 5px 5px 5px; }
+.page-id-65 #kboard-default-document .kboard-attach { margin: 0 5px; padding: 10px 0 5px 0; }
+.page-id-65 #kboard-default-document .kboard-document-navi .kboard-prev-document { width: 100%; }
+.page-id-65 #kboard-default-document .kboard-document-navi .kboard-next-document { margin-top: 10px; float: left; width: 100%; text-align: left; }
+}
+
+@media screen and (max-width: 909px) {
+.page-id-67 #kboard-default-list .kboard-category.category-mobile { display: block; }
+.page-id-67 #kboard-default-list .kboard-category.category-pc { display: none; }
+.page-id-67 #kboard-default-list .kboard-tree-category-search .kboard-search-option-wrap.select { width: 100%; }
+.page-id-67 #kboard-default-list .kboard-list table { border-top: 1px solid #f1f1f1; }
+.page-id-67 #kboard-default-list .kboard-list table thead { display: none; }
+.page-id-67 #kboard-default-list .kboard-list table td.kboard-list-title { padding: 10px 5px; }
+.page-id-67 #kboard-default-list .kboard-list table td.kboard-list-title .kboard-default-cut-strings { margin-bottom: 10px; white-space: normal; font-size: 15px; line-height: 23px; }
+.page-id-67 #kboard-default-list .kboard-list table td.kboard-list-uid,
+.page-id-67 #kboard-default-list .kboard-list table td.kboard-list-user,
+.page-id-67 #kboard-default-list .kboard-list table td.kboard-list-date,
+.page-id-67 #kboard-default-list .kboard-list table td.kboard-list-vote,
+.page-id-67 #kboard-default-list .kboard-list table td.kboard-list-view { display: none; }
+.page-id-67 #kboard-default-list .kboard-list .kboard-mobile-contents { display: block; }
+.page-id-67 #kboard-default-list .kboard-pagination .kboard-pagination-pages li { display: none; }
+.page-id-67 #kboard-default-list .kboard-pagination .kboard-pagination-pages li.first-page,
+.page-id-67 #kboard-default-list .kboard-pagination .kboard-pagination-pages li.last-page,
+.page-id-67 #kboard-default-list .kboard-pagination .kboard-pagination-pages li.prev-page,
+.page-id-67 #kboard-default-list .kboard-pagination .kboard-pagination-pages li.next-page,
+.page-id-67 #kboard-default-list .kboard-pagination .kboard-pagination-pages li.active { display: inline-block; }
+.page-id-67 #kboard-default-list .kboard-pagination .kboard-pagination-pages li.prev-page a,
+.page-id-67 #kboard-default-list .kboard-pagination .kboard-pagination-pages li.next-page a { padding: 0 18px; }
+.page-id-67 #kboard-default-list .kboard-search select { float: left; margin-right: 1%; width: 29%; min-width: 29%; height: 28px; line-height: 28px; box-sizing: border-box; }
+.page-id-67 #kboard-default-list .kboard-search input { float: left; margin-right: 1%; width: 49%; min-width: 49%; height: 28px; line-height: 28px; box-sizing: border-box; }
+.page-id-67 #kboard-default-list .kboard-search button { float: left; width: 20%; min-width: 20%; box-sizing: border-box; }
+
+.page-id-67 #kboard-default-editor select,
+.page-id-67 #kboard-default-editor input[type=text],
+.page-id-67 #kboard-default-editor input[type=email],
+.page-id-67 #kboard-default-editor input[type=number],
+.page-id-67 #kboard-default-editor input[type=date],
+.page-id-67 #kboard-default-editor input[type=password],
+.page-id-67 #kboard-default-editor input[type=file] { width: 100% !important; box-sizing: border-box; }
+.page-id-67 #kboard-default-editor .kboard-attr-row { padding: 10px 0; }
+.page-id-67 #kboard-default-editor .kboard-attr-row .attr-name { padding: 0; width: 100%; font-size: 14px; }
+.page-id-67 #kboard-default-editor .kboard-attr-row .attr-value { margin: 0; }
+.page-id-67 #kboard-default-editor .kboard-attr-row .attr-value .kboard-tree-category-wrap select { margin-bottom: 10px; width: 100%; }
+.page-id-67 #kboard-default-editor.confirm { max-width: none; }
+
+.page-id-67 #kboard-default-document .kboard-title h1 { padding: 10px 5px; font-size: 18px; }
+.page-id-67 #kboard-default-document .kboard-content .content-view { padding: 10px 5px; }
+.page-id-67 #kboard-default-document .kboard-detail .detail-attr { clear: both; padding: 10px 5px; line-height: normal; }
+.page-id-67 #kboard-default-document .kboard-document-action { padding: 10px 5px 5px 5px; }
+.page-id-67 #kboard-default-document .kboard-attach { margin: 0 5px; padding: 10px 0 5px 0; }
+.page-id-67 #kboard-default-document .kboard-document-navi .kboard-prev-document { width: 100%; }
+.page-id-67 #kboard-default-document .kboard-document-navi .kboard-next-document { margin-top: 10px; float: left; width: 100%; text-align: left; }
+}
+/* page-id-36 909px 아래에서 모바일 게시판 css 적용 */

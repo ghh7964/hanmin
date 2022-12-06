@@ -1,0 +1,92 @@
+  @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@700&display=swap');
+
+  .selector-for-some-widget {
+    box-sizing: content-box;
+  }
+
+  .rocket-font {
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 1.25rem;
+  }
+
+  .title {
+    background-color: black;
+    color: white;
+  
+    padding: 1rem;
+  
+    text-align: center;
+
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 1.5rem;
+  }
+
+  @media screen and (max-width: 1599px) {
+    #defaultCanvas0 {
+      display: none;
+    }
+
+    .title {
+      display: block;
+    }
+  }
+
+  @media screen and (min-width: 1600px) {
+    #defaultCanvas0 {
+      display: block;
+    }
+
+    .title {
+      display: none;
+    }
+  }
+
+  .button {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    display: block!important;
+
+    font-family: 'Noto Sans KR', sans-serif!important;
+  }
+
+  .slide {
+    width: 100%;
+
+    opacity: 0;
+  }
+
+  .slide.opacity {
+    opacity: 1;
+  }
+
+  .slide {
+    transition-property: opacity;
+    transition-duration: 1s;
+    transition-timing-function: linear;
+  }
+
+  .slide-div {
+    position: absolute;
+    left: 0rem;
+    top: 0rem;
+  }
+
+  td {
+    text-align: center;
+  }
+
+  #defaultCanvas0 {
+    margin: 0.5rem auto;
+  }
+
+  .show-shortcut {
+    float: right;
+    width: 49.5%;
+  }
+
+  .shortcut-img {
+    width: 2rem;
+    height: 2rem;
+  }
